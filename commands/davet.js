@@ -8,7 +8,7 @@ module.exports = {
 
   run: async(client, interaction) => {
 
-    const dvt = new Discord.ButtonBuilder().setLabel('Davet Linkim').setStyle('Link').setEmoji('1063843026482503739').setURL('https://discord.com/api/oauth2/authorize?client_id=1038372156578480199&permissions=347200&scope=applications.commands%20bot');
+    const dvt = new Discord.ButtonBuilder().setLabel('Davet Linkim').setStyle('Link').setEmoji('1063843026482503739').setURL('https://discord.com/api/oauth2/authorize?client_id=1208440543437127731&permissions=8&scope=bot');
 	const destek = new Discord.ButtonBuilder().setLabel('Destek Sunucum').setStyle('Link').setEmoji('1044325557615202364').setURL('https://discord.gg/SY7aMsVpUJ');
     const row = new Discord.ActionRowBuilder().addComponents(dvt).addComponents(destek)
     const embed = new EmbedBuilder()
